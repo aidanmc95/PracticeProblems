@@ -1,0 +1,1 @@
+1) Collapse a binary tree into a doubly linked list with the root of the tree in the middle and the head of the linked list as the left most element in the left subtree.
