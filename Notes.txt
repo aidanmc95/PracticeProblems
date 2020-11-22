@@ -4,3 +4,7 @@
    - 2 / 2 = 1, 2 / 3 = 0
    - 4 / 1 = 4 20 / 5 = 4
    - subtract full amout of divisor till and count unber of times that you can
+
+3) Given the head of a linked list, remove the nth node from the end of the list and return its head.
+   - Start a counter and track the prevous node. 
+   - Once you reach the Nth node change the prevouses next to the one after the nth
