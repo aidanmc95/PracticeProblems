@@ -2,7 +2,8 @@ array = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 index = 3
 
 def removeDuplicates(self, nums: List[int]) -> int:
-    if (len(nums) == 0) return 0;
+    if (len(nums) == 0):
+        return 0
     spot = 1
         check = nums[0]
         length = len(nums)
