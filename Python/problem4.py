@@ -4,18 +4,14 @@ index = 3
 def removeDuplicates(self, nums: List[int]) -> int:
     if (len(nums) == 0) return 0;
     spot = 1
-    check = nums[0]
-    length = len(nums)
-    while(spot < length):
-        if(check == nums[spot]):
-            del nums[spot - 1]
-            length = len(nums)
-        else:
-            check = nums[spot - 1]
-            spot += 1
-        print(nums)
-        print(spot, check, length)
-    print(nums)
+        check = nums[0]
+        length = len(nums)
+        while(spot < length):
+            if(check == nums[spot]):
+                del nums[spot - 1]
+                length = len(nums)
+            else:
+                check = nums[spot]
     return len(nums)
 
 print array
