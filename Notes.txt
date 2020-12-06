@@ -14,3 +14,5 @@
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
    - Loop through array skip first new number
    - Delete elements that are the same
+
+5) Create a second array that is one index larger than the original. Then loop through original array and set the new array by new_array[left] = min(new_array[left], right - left). The Loop through while end is less than len(old_array). Use 2 pointers and shift start to equal end every step.
