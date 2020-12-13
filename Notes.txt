@@ -21,3 +21,13 @@ Do not allocate extra space for another array, you must do this by modifying the
    - loop through the sorted set of all letters
    - from the index of the character check if all characters are left
    - if all are there replace the suset with the current character and call function again
+
+7) create candies array that is the same size. Loop through kids array in both ways.
+   - loop one:
+       - loop through from left to right
+       - check if current is greater than prior
+       - if so add 1 to current in comparison to prior
+   - loop two:
+       - loop through from right to left
+       - check if current is greater than prior
+       -  take max between the two 

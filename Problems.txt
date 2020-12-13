@@ -17,3 +17,11 @@ Given an integer n and an integer array ranges of length n + 1 where ranges[i] (
 Return the minimum number of taps that should be open to water the whole garden, If the garden cannot be watered return -1.
 
 6) Given a string s, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
+
+7) There are N children standing in a line. Each child is assigned a rating value.
+
+You are giving candies to these children subjected to the following requirements:
+
+Each child must have at least one candy.
+Children with a higher rating get more candies than their neighbors.
+What is the minimum candies you must give?
